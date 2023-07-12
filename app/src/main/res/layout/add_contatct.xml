@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="8dp"
+    android:backgroundTint="@color/teal_200">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/add_cont_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_contact"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="25sp"/>
+
+            <ImageView
+                android:id="@+id/add_img"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:padding="18dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape"/>
+
+
+                <EditText
+                    android:id="@+id/add_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_name"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:textSize="27sp"
+                    android:padding="12dp"
+                    android:background="@color/white"/>
+                <EditText
+                    android:id="@+id/add_num"
+                    android:textColorHint="@color/black"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="12dp"
+                    android:padding="12dp"
+                    android:inputType="number"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_number"
+                    android:textSize="23sp"
+                    android:background="@color/white"/>
+
+                <Button
+                    android:id="@+id/action_btn"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginEnd="20dp"
+                    android:backgroundTint="#F15389"
+                    android:layout_width="wrap_content"
+                    android:text="@string/save"
+                    android:textSize="18sp"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>

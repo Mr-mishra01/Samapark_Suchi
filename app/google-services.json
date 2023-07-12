@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "631373532887",
+    "project_id": "sampark-suchi",
+    "storage_bucket": "sampark-suchi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631373532887:android:dc5b64f4654ea5760daa92",
+        "android_client_info": {
+          "package_name": "com.example.samaparksuchi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631373532887-urh3g1g28pbvjunek1b5qmp7kagve0dp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.samaparksuchi",
+            "certificate_hash": "69a409a81418cc903fef5e2813ace4c886fe4b27"
+          }
+        },
+        {
+          "client_id": "631373532887-d74jbj1mq301sm4khnp02jhb270hnojg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfcoUqm7hjOPNi59Dld6LwuWtxPBXWWIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631373532887-d74jbj1mq301sm4khnp02jhb270hnojg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
